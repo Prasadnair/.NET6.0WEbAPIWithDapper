@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Prasad\\Articles\\WebAPIWithDapper\\APIWithDapperTutorial\\APIWithDapperTutorial\\APIWithDapperTutorial.csproj": {}
+  },
+  "projects": {
+    "D:\\Prasad\\Articles\\WebAPIWithDapper\\APIWithDapperTutorial\\APIWithDapperTutorial\\APIWithDapperTutorial.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Prasad\\Articles\\WebAPIWithDapper\\APIWithDapperTutorial\\APIWithDapperTutorial\\APIWithDapperTutorial.csproj",
+        "projectName": "APIWithDapperTutorial",
+        "projectPath": "D:\\Prasad\\Articles\\WebAPIWithDapper\\APIWithDapperTutorial\\APIWithDapperTutorial\\APIWithDapperTutorial.csproj",
+        "packagesPath": "C:\\Users\\raget\\.nuget\\packages\\",
+        "outputPath": "D:\\Prasad\\Articles\\WebAPIWithDapper\\APIWithDapperTutorial\\APIWithDapperTutorial\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\raget\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.0, 6.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.2, 6.0.2]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.0, 6.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.0, 6.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.2.22153.17\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
