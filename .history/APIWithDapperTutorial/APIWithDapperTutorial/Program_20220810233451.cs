@@ -6,7 +6,7 @@ using APIWithDapperTutorial.Domain.Interface;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddSingleton<SchoolContext>();
+builder.Services.AddScoped<SchoolContext>();
 builder.Services.AddScoped<ISchoolRepostory, SchoolRepository>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
